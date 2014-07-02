@@ -86,7 +86,7 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<json>, ["~> 1.4.6"])
+      s.add_runtime_dependency(%q<json>, ["~> 1.8.1"])
       s.add_runtime_dependency(%q<mime-types>, ["~> 1.16"])
       s.add_runtime_dependency(%q<typhoeus>, ["~> 0.3.0"])
       s.add_runtime_dependency(%q<thor>, ["~> 0.15"])
@@ -97,7 +97,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rake>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, [">= 0"])
     else
-      s.add_dependency(%q<json>, ["~> 1.4.6"])
+      s.add_dependency(%q<json>, ["~> 1.8.1"])
       s.add_dependency(%q<mime-types>, ["~> 1.16"])
       s.add_dependency(%q<typhoeus>, ["~> 0.3.0"])
       s.add_dependency(%q<thor>, ["~> 0.15"])
@@ -109,7 +109,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<jeweler>, [">= 0"])
     end
   else
-    s.add_dependency(%q<json>, ["~> 1.4.6"])
+    s.add_dependency(%q<json>, ["~> 1.8.1"])
     s.add_dependency(%q<mime-types>, ["~> 1.16"])
     s.add_dependency(%q<typhoeus>, ["~> 0.3.0"])
     s.add_dependency(%q<thor>, ["~> 0.15"])
@@ -121,4 +121,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<jeweler>, [">= 0"])
   end
 end
-
